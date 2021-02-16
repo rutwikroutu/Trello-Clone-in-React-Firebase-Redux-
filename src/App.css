@@ -1,0 +1,22 @@
+body {
+    overflow-y: hidden !important;
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    background-clip: padding-box;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.869);
+    border-radius: 10px;
+    background-clip: padding-box;
+  }
